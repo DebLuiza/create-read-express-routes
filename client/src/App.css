@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+.nav{
+    background-color: #121212;
+    border-bottom:1px solid #1d1d1d ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #70ffe0;
+    border-bottom:1px solid #70ffe0;
+    width: 5rem;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+}
+
+.nav a:hover{
+    color: rgb(252, 241, 243);
+    border-bottom:1px solid rgb(252, 241, 243);
+}
+
+body{
+    background-color: #121212;
+}
+
+.App{
+    min-height: 101vh;
+}
